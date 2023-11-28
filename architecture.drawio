@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T10:55:12.669Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QlrH0cAtT46KCCXIxQNa" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T11:05:47.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9qIyUEEap1mCVVwwQ-Bc" version="22.1.4" type="github">
   <diagram name="Page-1" id="D1KWsUhvGi-13Org68C8">
-    <mxGraphModel dx="1805" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2350" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,6 +93,16 @@
             <mxPoint x="-3" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-76" value="Client Device" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfplTYUUEJtRehGg-FaP-63">
+          <mxGeometry x="-0.2507" y="-5" relative="1" as="geometry">
+            <mxPoint x="414" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-77" value="Client Device" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfplTYUUEJtRehGg-FaP-63">
+          <mxGeometry x="-0.2507" y="-5" relative="1" as="geometry">
+            <mxPoint x="566" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LfplTYUUEJtRehGg-FaP-15" value="" style="shape=mxgraph.cisco.modems_and_phones.rf_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-30" y="726" width="82" height="42" as="geometry" />
         </mxCell>
@@ -147,6 +157,11 @@
         <mxCell id="LfplTYUUEJtRehGg-FaP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LfplTYUUEJtRehGg-FaP-14" target="LfplTYUUEJtRehGg-FaP-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-78" value="BLE/WiFi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfplTYUUEJtRehGg-FaP-39">
+          <mxGeometry x="0.0317" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LfplTYUUEJtRehGg-FaP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LfplTYUUEJtRehGg-FaP-25" target="LfplTYUUEJtRehGg-FaP-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -180,14 +195,44 @@
         <mxCell id="LfplTYUUEJtRehGg-FaP-68" value="Gateway&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-39" y="270" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LfplTYUUEJtRehGg-FaP-69" value="Time series DB" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590.52" y="270" width="60" height="30" as="geometry" />
+        <mxCell id="LfplTYUUEJtRehGg-FaP-69" value="Kafka" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="590" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LfplTYUUEJtRehGg-FaP-70" value="Backup DB" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="590" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LfplTYUUEJtRehGg-FaP-71" value="Computing Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="444" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-72" value="Worker Node(MCU)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-219" y="249" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-79" value="Sensor&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-339.5" y="406" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-80" value="Sensor&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-339.5" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-81" value="Sensor&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-82" value="Sensor&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-84" value="Sensor&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-338.5" y="626" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-85" value="Sensor&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-86" value="Worker Node(MCU)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-219.5" y="674" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-87" value="Worker Node(MCU)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-219" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LfplTYUUEJtRehGg-FaP-88" value="Worker Node(MCU)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="460" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
